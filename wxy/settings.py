@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'yun.apps.YunConfig',
+
 ]
 
 MIDDLEWARE = [
@@ -78,7 +79,7 @@ WSGI_APPLICATION = 'wxy.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'yun',
+        'NAME': 'rhyme',
         'USER': 'root',  # 账户名
         'PASSWORD': 'coship',  # 密码
         'HOST': 'localhost',  # 主机
